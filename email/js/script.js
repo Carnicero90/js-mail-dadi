@@ -15,5 +15,4 @@ if (logged) {
     document.getElementById("user").innerHTML = log;
 } else {
     alert("dati inseriti non validi:\nprima registrati e poi loggati!");
-    location.reload();
 }
