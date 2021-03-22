@@ -11,7 +11,7 @@ for (i = 0; i < ranger; i++) {
 }
 
 if (logged) {
-    alert(`loggato come ${log}, benvenuto!`);
+    alert("loggato come " + log + ", benvenuto!");
     document.getElementById("user").innerHTML = log;
 } else {
     alert("dati inseriti non validi:\nprima registrati e poi loggati!");

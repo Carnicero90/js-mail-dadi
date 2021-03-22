@@ -16,6 +16,23 @@
     color: black;
 }
 
+.btn-block {
+    width: 200px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.abs {
+    position: relative;
+}
+
+.google-logo {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* ======================= */
 
 /* MACRO LAYOUT
