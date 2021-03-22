@@ -1,14 +1,35 @@
 /* COMMON
    ======================= */
+.wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 /* ======================= */
 
 /* MACRO LAYOUT
    ======================= */
+body {
+    background-color: blueviolet;
+    color: white;
+}
 
 /* ======================= */
 
 /* MICRO LAYOUT
    ======================= */
+.user-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#user {
+    padding-left: 20px;
+}
+
+.user-icon {
+    height: 30px;
+    width: auto;
+}
 
 /* ======================= */

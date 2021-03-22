@@ -1,4 +1,4 @@
-var utentiAutenticati = ["fmontani81@gmail.com", "giancarlocarloni@hotmail.com", "krazy_kat72@libero.it"];
+var utentiAutenticati = ["a", "fmontani81@gmail.com", "giancarlocarloni@hotmail.com", "krazy_kat72@libero.it"];
 var log = prompt("inserire propria email");
 
 // var logged = utentiAutenticati.includes(log);
@@ -12,6 +12,8 @@ for (i = 0; i < ranger; i++) {
 
 if (logged) {
     alert(`loggato come ${log}, benvenuto!`);
+    document.getElementById("user").innerHTML = log;
 } else {
     alert("dati inseriti non validi:\nprima registrati e poi loggati!");
+    location.reload();
 }
