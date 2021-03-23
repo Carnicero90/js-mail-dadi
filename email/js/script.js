@@ -12,6 +12,7 @@ var ranger = utentiAutenticati.length;
 for (i = 0; i < ranger; i++) {
     if (log == utentiAutenticati[i]) {
         logged = true;
+        i = ranger;
     }
 }
 if (logged) {
